@@ -6,3 +6,44 @@
 //******************TEST EARLY AND OFTEN USING console.log() ******************
 //****************** SERIOUSLY TEST USING console.log()!!! ******************
 
+
+// Initialize Firebase
+var config = {
+    apiKey: "AIzaSyA8hz0Iq-rloAdG6oMYTGZGY_ldzPz5oXs",
+    authDomain: "my-portfolio-89eda.firebaseapp.com",
+    databaseURL: "https://my-portfolio-89eda.firebaseio.com",
+    projectId: "my-portfolio-89eda",
+    storageBucket: "",
+    messagingSenderId: "684916841306"
+};
+
+firebase.initializeApp(config);
+
+var projects = firebase.database().ref('projects');
+  
+    
+projects.on('value', function(snapshot) {
+     $(".projects").empty();
+    var projects = snapshot.val();
+    
+     for (var in key projects){
+        var div = $('<div class = "col-sm-4 portfolio-item">');
+        var title = $("")
+        var preview = $()
+        var img = $()
+        var source = $()
+    
+
+    }
+
+title.append(title);
+preview.append(live_site_url)
+img.append(project_image_url);
+source.append(source_url);
+
+
+      
+    
+    
+});
+

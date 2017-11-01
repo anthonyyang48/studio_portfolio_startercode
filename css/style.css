@@ -1,35 +1,55 @@
-.header{
+.header {
     text-align: center;
 }
 
-img {
+.profile {
     height: 200px;
-    border-radius:50%;
+    border-radius: 50%;
 }
 
 .information {
     text-align: center;
 }
 
-/* Header CSS */
+#placeholder1 {
+    border-radius: 50%;
+    float: left;
+    width: 33%;
+    margin-top: 50px;
+}
+
+#placeholder2 {
+    border-radius: 50%;
+    float: left;
+    width: 33%;
+    margin-top: 50px;
+}
+
+#placeholder3 {
+    border-radius: 50%;
+    float: left;
+    width: 33%;
+    margin-top: 50px;
+}
 
 
+p2 {
+    text-align: center;
+    float: left;
+    width: 33%;
+    margin-top: 10px;
+}
 
-/* Section CSS */
+p3 {
+    text-align: center;
+    float: left;
+    width: 33%;
+    margin-top: 10px;
+}
 
-
-
-/* About Section CSS */
-
-
-
-/* Portfolio Item CSS */
-
-
-
-/* Footer CSS */
-
-
-
-/* Button CSS */
-
+p4 {
+    text-align: center;
+    float: left;
+    width: 33%;
+    margin-top: 10px;
+}
