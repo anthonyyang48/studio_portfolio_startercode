@@ -19,30 +19,26 @@ var config = {
 
 firebase.initializeApp(config);
 
-var projects = firebase.database().ref('projects');
+var projects = firebase.database().ref('Projects ');
     
-projects.on('value', function(snapshot) {
-     $(".projects").empty();
-    var projects = snapshot.val();
-    
-     for (var key in projects){
-        var div = $('<div class = "col-sm-4 portfolio-item">');
-        var title = $("");
-        var preview = $();
-        var image = $();
-        var paragraph = $();
-        var source = $();
-    }
-
-title.append(title);
-preview.append(preview);
-img.append(image);
-paragraph.append(paragraph);
-source.append(source);
-
-
-      
+    projects.on('value', function(snapshot) {
+          
+         var projectsArray = snapshot.val();
+         
+          for  (var key in projectsArray){
+              console.log(key)
+//                var template = $('.template').clone();
+//                console.log(template)
+                var project = projectsArray[key];
+//                $(".projects")[0].append(template.html());
+                $(".projects").append('<img id="image" src="' + project.project_image_url + '"/>');
+                $(".projects").append('<h1 id="title">' + project.title + '</h1>');
+                $(".projects").append('<p id="paragraph">' + project.paragraph + '</p>');
+                $(".projects").append('<a class="btn btn-default link" id="site-link" href="' + project.live_site_url  + '">' + "Preview" + '</a>');
+                $(".projects").append('<a class="btn btn-default link" id="github-link" href="' + project.source_url + '">' + "Code" + '</a>');
+         }
     
     
-});
+    
+ });
 
