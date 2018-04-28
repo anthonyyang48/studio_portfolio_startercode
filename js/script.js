@@ -27,16 +27,14 @@ var projects = firebase.database().ref('Projects ');
          
           for  (var key in projectsArray){
               console.log(key)
-//                var template = $('.template').clone();
-//                console.log(template)
                 var project = projectsArray[key];
-//                $(".projects")[0].append(template.html());
+
                 $(".projects").append('<img id="image" src="' + project.project_image_url + '"/>');
                 $(".projects").append('<h1 id="title">' + project.title + '</h1>');
-                $(".projects").append('<p id="paragraph">' + project.paragraph + '</p>');
-                $(".projects").append('<a class="btn btn-default link" id="site-link" href="' + project.live_site_url  + '">' + "Preview" + '</a>');
-                $(".projects").append('<a class="btn btn-default link" id="github-link" href="' + project.source_url + '">' + "Code" + '</a>');
-         }
+                $(".projects").append('<a class="btn btn-primary link" id="site-link" href="' + project.live_site_url  + '">' + "Preview" + '</a>');
+                $(".projects").append('<a class="btn btn-primary link" id="github-link" href="' + project.source_url + '">' + "Code" + '</a>');
+         
+          }
     
     
     

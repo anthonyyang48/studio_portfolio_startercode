@@ -1,41 +1,47 @@
+body {
+  background-color: #e7e7e7;
+}
+
+.header {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.navbar {
+  background-color: white;
+  padding-top: 10px;
+}
+
+.header h3 {
+  padding-bottom: 19px;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+
 .profile {
-    text-align: center;
+  text-align: center;
+  position: relative;
+  top: 150px;
 }
 
 #icon {
-    height: 200px;
-    border-radius: 50%;
-    text-align: center;
+  height: 300px;
+  width: 350px;
+  border-radius: 25px;
 }
 
-
-.information {
-    text-align: center;
+#name {
+  font-size: 30px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
-#image{
-    width: 30%;
-    margin-top: 50px;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    
+#description {
+  position: relative;
+  top: 10px;
+  font-size: 25px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; 
 }
 
-#title {
-    text-align: center;
-}
-
-#paragraph {
-    text-align: center;
-}
-
-.link{
-    width: 15%;
-    text-align: center;
-    display: inline-block;
-    position: relative;
-    left: 35%;
-}
 
 

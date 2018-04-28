@@ -1,0 +1,73 @@
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #ddd;
+}
+
+.header{
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.navbar {
+  background-color: white;
+  padding-top: 10px;
+}
+
+.header h3 {
+  padding-bottom: 19px;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+
+#project-title{
+  text-align: center;
+  position: relative;
+  top: 80px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#description{
+  text-align: center;
+  position: relative;
+  top: 100px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 15px;
+}
+
+
+#image{
+  width: 45%;
+  margin-top: 50px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 100px;
+}
+
+#title {
+  text-align: center;
+  position: relative;
+  top: 110px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.link{
+  width: 10%;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  top: 120px;
+}
+
+#site-link {
+  position: relative;
+  left: 35%;
+}
+
+#github-link {
+  position: relative;
+  left: 45%;
+}

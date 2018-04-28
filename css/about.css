@@ -1,0 +1,81 @@
+body {
+  background-color: #FFDAB9;
+}
+
+.header {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.navbar {
+  background-color: white;
+  padding-top: 10px;
+}
+
+.header h3 {
+  padding-bottom: 19px;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+
+.information {
+  text-align: center;
+  position: relative;
+  top: 80px;
+}
+
+#icon {
+    height: 250px;
+    border-radius: 300px;
+}
+
+#name {
+  font-size: 30px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#paragraph {
+  position: relative;
+  top: 10px;
+  left: 425px;
+  width: 40%;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 17px;
+}
+
+.footer {
+  background-color: #4169E1;
+  position: absolute;
+  bottom: 0;
+  height: 45px;
+  width: 100%;
+  overflow: hidden;
+}
+
+#left {
+  position: relative;
+  left: 250px;
+}
+
+#left:hover {
+  opacity: 0.5;
+}
+
+#middle {
+  position: relative;
+  left: 550px;
+}
+
+#middle:hover {
+  opacity: 0.5;
+}
+
+#right {
+  position: relative;
+  left: 850px;
+}
+
+#right:hover {
+  opacity: 0.5;
+}
